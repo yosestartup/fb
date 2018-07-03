@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15A579920EB95F600551DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A579820EB95F600551DF5 /* AppDelegate.swift */; };
+		B15A579B20EB95F600551DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A579A20EB95F600551DF5 /* ViewController.swift */; };
+		B15A579E20EB95F600551DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15A579C20EB95F600551DF5 /* Main.storyboard */; };
+		B15A57A020EB95F800551DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15A579F20EB95F800551DF5 /* Assets.xcassets */; };
+		B15A57A320EB95F800551DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15A57A120EB95F800551DF5 /* LaunchScreen.storyboard */; };
+		B15A57AE20EB95F800551DF5 /* E_dinarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57AD20EB95F800551DF5 /* E_dinarsTests.swift */; };
+		B15A57B920EB95F800551DF5 /* E_dinarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57B820EB95F800551DF5 /* E_dinarsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15A57AA20EB95F800551DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15A578D20EB95F600551DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15A579420EB95F600551DF5;
+			remoteInfo = "E-dinars";
+		};
+		B15A57B520EB95F800551DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15A578D20EB95F600551DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15A579420EB95F600551DF5;
+			remoteInfo = "E-dinars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B15A579520EB95F600551DF5 /* E-dinars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-dinars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15A579820EB95F600551DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B15A579A20EB95F600551DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B15A579D20EB95F600551DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B15A579F20EB95F800551DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B15A57A220EB95F800551DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B15A57A420EB95F800551DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15A57A920EB95F800551DF5 /* E-dinarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-dinarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15A57AD20EB95F800551DF5 /* E_dinarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_dinarsTests.swift; sourceTree = "<group>"; };
+		B15A57AF20EB95F800551DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15A57B420EB95F800551DF5 /* E-dinarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-dinarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15A57B820EB95F800551DF5 /* E_dinarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_dinarsUITests.swift; sourceTree = "<group>"; };
+		B15A57BA20EB95F800551DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15A579220EB95F600551DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15A57A620EB95F800551DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15A57B120EB95F800551DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15A578C20EB95F600551DF5 = {
+			isa = PBXGroup;
+			children = (
+				B15A579720EB95F600551DF5 /* E-dinars */,
+				B15A57AC20EB95F800551DF5 /* E-dinarsTests */,
+				B15A57B720EB95F800551DF5 /* E-dinarsUITests */,
+				B15A579620EB95F600551DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B15A579620EB95F600551DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15A579520EB95F600551DF5 /* E-dinars.app */,
+				B15A57A920EB95F800551DF5 /* E-dinarsTests.xctest */,
+				B15A57B420EB95F800551DF5 /* E-dinarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15A579720EB95F600551DF5 /* E-dinars */ = {
+			isa = PBXGroup;
+			children = (
+				B15A579820EB95F600551DF5 /* AppDelegate.swift */,
+				B15A579A20EB95F600551DF5 /* ViewController.swift */,
+				B15A579C20EB95F600551DF5 /* Main.storyboard */,
+				B15A579F20EB95F800551DF5 /* Assets.xcassets */,
+				B15A57A120EB95F800551DF5 /* LaunchScreen.storyboard */,
+				B15A57A420EB95F800551DF5 /* Info.plist */,
+			);
+			path = "E-dinars";
+			sourceTree = "<group>";
+		};
+		B15A57AC20EB95F800551DF5 /* E-dinarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15A57AD20EB95F800551DF5 /* E_dinarsTests.swift */,
+				B15A57AF20EB95F800551DF5 /* Info.plist */,
+			);
+			path = "E-dinarsTests";
+			sourceTree = "<group>";
+		};
+		B15A57B720EB95F800551DF5 /* E-dinarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B15A57B820EB95F800551DF5 /* E_dinarsUITests.swift */,
+				B15A57BA20EB95F800551DF5 /* Info.plist */,
+			);
+			path = "E-dinarsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B15A579420EB95F600551DF5 /* E-dinars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15A57BD20EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinars" */;
+			buildPhases = (
+				B15A579120EB95F600551DF5 /* Sources */,
+				B15A579220EB95F600551DF5 /* Frameworks */,
+				B15A579320EB95F600551DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-dinars";
+			productName = "E-dinars";
+			productReference = B15A579520EB95F600551DF5 /* E-dinars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15A57A820EB95F800551DF5 /* E-dinarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15A57C020EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsTests" */;
+			buildPhases = (
+				B15A57A520EB95F800551DF5 /* Sources */,
+				B15A57A620EB95F800551DF5 /* Frameworks */,
+				B15A57A720EB95F800551DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15A57AB20EB95F800551DF5 /* PBXTargetDependency */,
+			);
+			name = "E-dinarsTests";
+			productName = "E-dinarsTests";
+			productReference = B15A57A920EB95F800551DF5 /* E-dinarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B15A57B320EB95F800551DF5 /* E-dinarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15A57C320EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsUITests" */;
+			buildPhases = (
+				B15A57B020EB95F800551DF5 /* Sources */,
+				B15A57B120EB95F800551DF5 /* Frameworks */,
+				B15A57B220EB95F800551DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15A57B620EB95F800551DF5 /* PBXTargetDependency */,
+			);
+			name = "E-dinarsUITests";
+			productName = "E-dinarsUITests";
+			productReference = B15A57B420EB95F800551DF5 /* E-dinarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15A578D20EB95F600551DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Oleksandr Bambulyak";
+				TargetAttributes = {
+					B15A579420EB95F600551DF5 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					B15A57A820EB95F800551DF5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B15A579420EB95F600551DF5;
+					};
+					B15A57B320EB95F800551DF5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B15A579420EB95F600551DF5;
+					};
+				};
+			};
+			buildConfigurationList = B15A579020EB95F600551DF5 /* Build configuration list for PBXProject "E-dinars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B15A578C20EB95F600551DF5;
+			productRefGroup = B15A579620EB95F600551DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B15A579420EB95F600551DF5 /* E-dinars */,
+				B15A57A820EB95F800551DF5 /* E-dinarsTests */,
+				B15A57B320EB95F800551DF5 /* E-dinarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15A579320EB95F600551DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15A57A320EB95F800551DF5 /* LaunchScreen.storyboard in Resources */,
+				B15A57A020EB95F800551DF5 /* Assets.xcassets in Resources */,
+				B15A579E20EB95F600551DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15A57A720EB95F800551DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15A57B220EB95F800551DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15A579120EB95F600551DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15A579B20EB95F600551DF5 /* ViewController.swift in Sources */,
+				B15A579920EB95F600551DF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15A57A520EB95F800551DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15A57AE20EB95F800551DF5 /* E_dinarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15A57B020EB95F800551DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15A57B920EB95F800551DF5 /* E_dinarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15A57AB20EB95F800551DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15A579420EB95F600551DF5 /* E-dinars */;
+			targetProxy = B15A57AA20EB95F800551DF5 /* PBXContainerItemProxy */;
+		};
+		B15A57B620EB95F800551DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15A579420EB95F600551DF5 /* E-dinars */;
+			targetProxy = B15A57B520EB95F800551DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B15A579C20EB95F600551DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15A579D20EB95F600551DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B15A57A120EB95F800551DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15A57A220EB95F800551DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B15A57BB20EB95F800551DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B15A57BC20EB95F800551DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B15A57BE20EB95F800551DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42HSZXZUT7;
+				INFOPLIST_FILE = "E-dinars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B15A57BF20EB95F800551DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42HSZXZUT7;
+				INFOPLIST_FILE = "E-dinars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B15A57C120EB95F800551DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42HSZXZUT7;
+				INFOPLIST_FILE = "E-dinarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-dinars.app/E-dinars";
+			};
+			name = Debug;
+		};
+		B15A57C220EB95F800551DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42HSZXZUT7;
+				INFOPLIST_FILE = "E-dinarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-dinars.app/E-dinars";
+			};
+			name = Release;
+		};
+		B15A57C420EB95F800551DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42HSZXZUT7;
+				INFOPLIST_FILE = "E-dinarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-dinars";
+			};
+			name = Debug;
+		};
+		B15A57C520EB95F800551DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42HSZXZUT7;
+				INFOPLIST_FILE = "E-dinarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-dinars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15A579020EB95F600551DF5 /* Build configuration list for PBXProject "E-dinars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15A57BB20EB95F800551DF5 /* Debug */,
+				B15A57BC20EB95F800551DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15A57BD20EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15A57BE20EB95F800551DF5 /* Debug */,
+				B15A57BF20EB95F800551DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15A57C020EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15A57C120EB95F800551DF5 /* Debug */,
+				B15A57C220EB95F800551DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15A57C320EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15A57C420EB95F800551DF5 /* Debug */,
+				B15A57C520EB95F800551DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15A578D20EB95F600551DF5 /* Project object */;
+}
