@@ -7,46 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651F5484FE9E3B33CA608E1C /* Pods_E_dinars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458018A14974E092B98C1336 /* Pods_E_dinars.framework */; };
+		B13F524720F739A000E1FBFA /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F524620F739A000E1FBFA /* BaseTabBarViewController.swift */; };
+		B13F524E20F753CB00E1FBFA /* MyAccountsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F524D20F753CB00E1FBFA /* MyAccountsCoordinator.swift */; };
+		B13F525020F7542200E1FBFA /* MyAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F524F20F7542200E1FBFA /* MyAccountsViewController.swift */; };
+		B13F525420F7590300E1FBFA /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F525320F7590300E1FBFA /* OrdersViewController.swift */; };
+		B13F525620F7592900E1FBFA /* OrdersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F525520F7592900E1FBFA /* OrdersCoordinator.swift */; };
+		B13F525920F897C900E1FBFA /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F525820F897C900E1FBFA /* KeychainPasswordItem.swift */; };
+		B13F525C20F9285800E1FBFA /* MyEbayAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F525A20F9285800E1FBFA /* MyEbayAccountTableViewCell.swift */; };
+		B13F525D20F9285800E1FBFA /* MyEbayAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13F525B20F9285800E1FBFA /* MyEbayAccountTableViewCell.xib */; };
+		B1461DFC20FCBB5200A28E65 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1461DFB20FCBB5200A28E65 /* Post.swift */; };
+		B1461E0020FCC80300A28E65 /* FacebookPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1461DFF20FCC80300A28E65 /* FacebookPostService.swift */; };
 		B15A579920EB95F600551DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A579820EB95F600551DF5 /* AppDelegate.swift */; };
-		B15A579B20EB95F600551DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A579A20EB95F600551DF5 /* ViewController.swift */; };
+		B15A579B20EB95F600551DF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A579A20EB95F600551DF5 /* LoginViewController.swift */; };
 		B15A579E20EB95F600551DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15A579C20EB95F600551DF5 /* Main.storyboard */; };
 		B15A57A020EB95F800551DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15A579F20EB95F800551DF5 /* Assets.xcassets */; };
 		B15A57A320EB95F800551DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15A57A120EB95F800551DF5 /* LaunchScreen.storyboard */; };
-		B15A57AE20EB95F800551DF5 /* E_dinarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57AD20EB95F800551DF5 /* E_dinarsTests.swift */; };
-		B15A57B920EB95F800551DF5 /* E_dinarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57B820EB95F800551DF5 /* E_dinarsUITests.swift */; };
+		B15A57CB20EBAD5600551DF5 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57C920EBAD5600551DF5 /* UIFont+Additions.swift */; };
+		B15A57CC20EBAD5600551DF5 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57CA20EBAD5600551DF5 /* UIColor+Additions.swift */; };
+		B15A57D520ECDC9D00551DF5 /* CustomAlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A57D320ECDC9D00551DF5 /* CustomAlertContentView.swift */; };
+		B15A57D620ECDC9D00551DF5 /* CustomAlertContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15A57D420ECDC9D00551DF5 /* CustomAlertContentView.xib */; };
+		B1683F0D20EF85E900F6945D /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1683F0C20EF85E900F6945D /* AlertAction.swift */; };
+		B1683F0F20EF871400F6945D /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1683F0E20EF871400F6945D /* CustomAlertViewController.swift */; };
+		B18014D42100842D002A4997 /* RealmServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18014D32100842D002A4997 /* RealmServices.swift */; };
+		B1C618DC212484D20064D2AC /* MyAccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C618DB212484D20064D2AC /* MyAccountsViewModel.swift */; };
+		B1DC478420F600EE00DF2535 /* LoginViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC478320F600EE00DF2535 /* LoginViewController+UI.swift */; };
+		B1DC478620F63CED00DF2535 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC478520F63CED00DF2535 /* AppCoordinator.swift */; };
+		B1DC478820F63D1C00DF2535 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC478720F63D1C00DF2535 /* Coordinator.swift */; };
+		B1DC478A20F649B200DF2535 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC478920F649B200DF2535 /* AuthCoordinator.swift */; };
+		B1DC478C20F649CA00DF2535 /* BaseTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC478B20F649CA00DF2535 /* BaseTabBarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B15A57AA20EB95F800551DF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B15A578D20EB95F600551DF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B15A579420EB95F600551DF5;
-			remoteInfo = "E-dinars";
-		};
-		B15A57B520EB95F800551DF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B15A578D20EB95F600551DF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B15A579420EB95F600551DF5;
-			remoteInfo = "E-dinars";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		43C6A83B1A366FD6A623378B /* Pods-E-dinars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-dinars.release.xcconfig"; path = "Pods/Target Support Files/Pods-E-dinars/Pods-E-dinars.release.xcconfig"; sourceTree = "<group>"; };
+		458018A14974E092B98C1336 /* Pods_E_dinars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_dinars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13F524620F739A000E1FBFA /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		B13F524D20F753CB00E1FBFA /* MyAccountsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountsCoordinator.swift; sourceTree = "<group>"; };
+		B13F524F20F7542200E1FBFA /* MyAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountsViewController.swift; sourceTree = "<group>"; };
+		B13F525320F7590300E1FBFA /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		B13F525520F7592900E1FBFA /* OrdersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCoordinator.swift; sourceTree = "<group>"; };
+		B13F525720F8910000E1FBFA /* E-dinars.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "E-dinars.entitlements"; sourceTree = "<group>"; };
+		B13F525820F897C900E1FBFA /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		B13F525A20F9285800E1FBFA /* MyEbayAccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEbayAccountTableViewCell.swift; sourceTree = "<group>"; };
+		B13F525B20F9285800E1FBFA /* MyEbayAccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyEbayAccountTableViewCell.xib; sourceTree = "<group>"; };
+		B1461DFB20FCBB5200A28E65 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B1461DFF20FCC80300A28E65 /* FacebookPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPostService.swift; sourceTree = "<group>"; };
 		B15A579520EB95F600551DF5 /* E-dinars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-dinars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15A579820EB95F600551DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B15A579A20EB95F600551DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B15A579A20EB95F600551DF5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B15A579D20EB95F600551DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B15A579F20EB95F800551DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15A57A220EB95F800551DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15A57A420EB95F800551DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B15A57A920EB95F800551DF5 /* E-dinarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-dinarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15A57AD20EB95F800551DF5 /* E_dinarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_dinarsTests.swift; sourceTree = "<group>"; };
-		B15A57AF20EB95F800551DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B15A57B420EB95F800551DF5 /* E-dinarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-dinarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15A57B820EB95F800551DF5 /* E_dinarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_dinarsUITests.swift; sourceTree = "<group>"; };
-		B15A57BA20EB95F800551DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15A57C920EBAD5600551DF5 /* UIFont+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		B15A57CA20EBAD5600551DF5 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		B15A57D320ECDC9D00551DF5 /* CustomAlertContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertContentView.swift; sourceTree = "<group>"; };
+		B15A57D420ECDC9D00551DF5 /* CustomAlertContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlertContentView.xib; sourceTree = "<group>"; };
+		B1683F0C20EF85E900F6945D /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		B1683F0E20EF871400F6945D /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		B18014D32100842D002A4997 /* RealmServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmServices.swift; sourceTree = "<group>"; };
+		B1C618DB212484D20064D2AC /* MyAccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountsViewModel.swift; sourceTree = "<group>"; };
+		B1DC478320F600EE00DF2535 /* LoginViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+UI.swift"; sourceTree = "<group>"; };
+		B1DC478520F63CED00DF2535 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B1DC478720F63D1C00DF2535 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B1DC478920F649B200DF2535 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		B1DC478B20F649CA00DF2535 /* BaseTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarCoordinator.swift; sourceTree = "<group>"; };
+		BF14DC328260E159179252C7 /* Pods-E-dinars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-dinars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-E-dinars/Pods-E-dinars.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +80,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15A57A620EB95F800551DF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15A57B120EB95F800551DF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				651F5484FE9E3B33CA608E1C /* Pods_E_dinars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1D70A865F7AF9233D7D03BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF14DC328260E159179252C7 /* Pods-E-dinars.debug.xcconfig */,
+				43C6A83B1A366FD6A623378B /* Pods-E-dinars.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B13F524820F739C700E1FBFA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				B1DC478520F63CED00DF2535 /* AppCoordinator.swift */,
+				B1DC478920F649B200DF2535 /* AuthCoordinator.swift */,
+				B1DC478B20F649CA00DF2535 /* BaseTabBarCoordinator.swift */,
+				B13F524D20F753CB00E1FBFA /* MyAccountsCoordinator.swift */,
+				B13F525520F7592900E1FBFA /* OrdersCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		B13F524920F739E000E1FBFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B15A579A20EB95F600551DF5 /* LoginViewController.swift */,
+				B13F524620F739A000E1FBFA /* BaseTabBarViewController.swift */,
+				B13F524F20F7542200E1FBFA /* MyAccountsViewController.swift */,
+				B1C618DB212484D20064D2AC /* MyAccountsViewModel.swift */,
+				B1461DFF20FCC80300A28E65 /* FacebookPostService.swift */,
+				B13F525320F7590300E1FBFA /* OrdersViewController.swift */,
+				B1683F0E20EF871400F6945D /* CustomAlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B13F524A20F739ED00E1FBFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B15A579C20EB95F600551DF5 /* Main.storyboard */,
+				B15A57D420ECDC9D00551DF5 /* CustomAlertContentView.xib */,
+				B1683F0C20EF85E900F6945D /* AlertAction.swift */,
+				B15A57D320ECDC9D00551DF5 /* CustomAlertContentView.swift */,
+				B13F525A20F9285800E1FBFA /* MyEbayAccountTableViewCell.swift */,
+				B13F525B20F9285800E1FBFA /* MyEbayAccountTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B13F524C20F73AE800E1FBFA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B1DC478320F600EE00DF2535 /* LoginViewController+UI.swift */,
+				B15A57C920EBAD5600551DF5 /* UIFont+Additions.swift */,
+				B15A57CA20EBAD5600551DF5 /* UIColor+Additions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		B15A578C20EB95F600551DF5 = {
 			isa = PBXGroup;
 			children = (
 				B15A579720EB95F600551DF5 /* E-dinars */,
-				B15A57AC20EB95F800551DF5 /* E-dinarsTests */,
-				B15A57B720EB95F800551DF5 /* E-dinarsUITests */,
 				B15A579620EB95F600551DF5 /* Products */,
+				A1D70A865F7AF9233D7D03BA /* Pods */,
+				C9E8E5AE3C31808BDDA14E4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				B15A579520EB95F600551DF5 /* E-dinars.app */,
-				B15A57A920EB95F800551DF5 /* E-dinarsTests.xctest */,
-				B15A57B420EB95F800551DF5 /* E-dinarsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +166,29 @@
 		B15A579720EB95F600551DF5 /* E-dinars */ = {
 			isa = PBXGroup;
 			children = (
+				B13F525720F8910000E1FBFA /* E-dinars.entitlements */,
 				B15A579820EB95F600551DF5 /* AppDelegate.swift */,
-				B15A579A20EB95F600551DF5 /* ViewController.swift */,
-				B15A579C20EB95F600551DF5 /* Main.storyboard */,
+				B13F524A20F739ED00E1FBFA /* Views */,
+				B13F524920F739E000E1FBFA /* Controllers */,
+				B13F524820F739C700E1FBFA /* Coordinators */,
+				B13F524C20F73AE800E1FBFA /* UI */,
 				B15A579F20EB95F800551DF5 /* Assets.xcassets */,
+				B18014D32100842D002A4997 /* RealmServices.swift */,
+				B1461DFB20FCBB5200A28E65 /* Post.swift */,
+				B1DC478720F63D1C00DF2535 /* Coordinator.swift */,
+				B13F525820F897C900E1FBFA /* KeychainPasswordItem.swift */,
 				B15A57A120EB95F800551DF5 /* LaunchScreen.storyboard */,
 				B15A57A420EB95F800551DF5 /* Info.plist */,
 			);
 			path = "E-dinars";
 			sourceTree = "<group>";
 		};
-		B15A57AC20EB95F800551DF5 /* E-dinarsTests */ = {
+		C9E8E5AE3C31808BDDA14E4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B15A57AD20EB95F800551DF5 /* E_dinarsTests.swift */,
-				B15A57AF20EB95F800551DF5 /* Info.plist */,
+				458018A14974E092B98C1336 /* Pods_E_dinars.framework */,
 			);
-			path = "E-dinarsTests";
-			sourceTree = "<group>";
-		};
-		B15A57B720EB95F800551DF5 /* E-dinarsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B15A57B820EB95F800551DF5 /* E_dinarsUITests.swift */,
-				B15A57BA20EB95F800551DF5 /* Info.plist */,
-			);
-			path = "E-dinarsUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +198,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B15A57BD20EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinars" */;
 			buildPhases = (
+				11A0DDA98491425A54C3A625 /* [CP] Check Pods Manifest.lock */,
 				B15A579120EB95F600551DF5 /* Sources */,
 				B15A579220EB95F600551DF5 /* Frameworks */,
 				B15A579320EB95F600551DF5 /* Resources */,
+				B15A57C820EBAB2F00551DF5 /* SwiftLint */,
+				164252BBC76BCCFF9C83A888 /* [CP] Embed Pods Frameworks */,
+				495AC2E67CF757CF0B634E60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,42 +214,6 @@
 			productName = "E-dinars";
 			productReference = B15A579520EB95F600551DF5 /* E-dinars.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B15A57A820EB95F800551DF5 /* E-dinarsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B15A57C020EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsTests" */;
-			buildPhases = (
-				B15A57A520EB95F800551DF5 /* Sources */,
-				B15A57A620EB95F800551DF5 /* Frameworks */,
-				B15A57A720EB95F800551DF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B15A57AB20EB95F800551DF5 /* PBXTargetDependency */,
-			);
-			name = "E-dinarsTests";
-			productName = "E-dinarsTests";
-			productReference = B15A57A920EB95F800551DF5 /* E-dinarsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B15A57B320EB95F800551DF5 /* E-dinarsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B15A57C320EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsUITests" */;
-			buildPhases = (
-				B15A57B020EB95F800551DF5 /* Sources */,
-				B15A57B120EB95F800551DF5 /* Frameworks */,
-				B15A57B220EB95F800551DF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B15A57B620EB95F800551DF5 /* PBXTargetDependency */,
-			);
-			name = "E-dinarsUITests";
-			productName = "E-dinarsUITests";
-			productReference = B15A57B420EB95F800551DF5 /* E-dinarsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,14 +227,11 @@
 				TargetAttributes = {
 					B15A579420EB95F600551DF5 = {
 						CreatedOnToolsVersion = 9.4;
-					};
-					B15A57A820EB95F800551DF5 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = B15A579420EB95F600551DF5;
-					};
-					B15A57B320EB95F800551DF5 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = B15A579420EB95F600551DF5;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -218,8 +249,6 @@
 			projectRoot = "";
 			targets = (
 				B15A579420EB95F600551DF5 /* E-dinars */,
-				B15A57A820EB95F800551DF5 /* E-dinarsTests */,
-				B15A57B320EB95F800551DF5 /* E-dinarsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,67 +259,131 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15A57A320EB95F800551DF5 /* LaunchScreen.storyboard in Resources */,
+				B13F525D20F9285800E1FBFA /* MyEbayAccountTableViewCell.xib in Resources */,
 				B15A57A020EB95F800551DF5 /* Assets.xcassets in Resources */,
 				B15A579E20EB95F600551DF5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15A57A720EB95F800551DF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15A57B220EB95F800551DF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B15A57D620ECDC9D00551DF5 /* CustomAlertContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A0DDA98491425A54C3A625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-dinars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		164252BBC76BCCFF9C83A888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-E-dinars/Pods-E-dinars-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-E-dinars/Pods-E-dinars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495AC2E67CF757CF0B634E60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-E-dinars/Pods-E-dinars-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15A57C820EBAB2F00551DF5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B15A579120EB95F600551DF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15A579B20EB95F600551DF5 /* ViewController.swift in Sources */,
+				B1DC478420F600EE00DF2535 /* LoginViewController+UI.swift in Sources */,
+				B1683F0D20EF85E900F6945D /* AlertAction.swift in Sources */,
+				B1DC478820F63D1C00DF2535 /* Coordinator.swift in Sources */,
+				B13F525420F7590300E1FBFA /* OrdersViewController.swift in Sources */,
+				B15A579B20EB95F600551DF5 /* LoginViewController.swift in Sources */,
+				B13F525920F897C900E1FBFA /* KeychainPasswordItem.swift in Sources */,
+				B15A57CC20EBAD5600551DF5 /* UIColor+Additions.swift in Sources */,
+				B18014D42100842D002A4997 /* RealmServices.swift in Sources */,
+				B15A57CB20EBAD5600551DF5 /* UIFont+Additions.swift in Sources */,
+				B1461E0020FCC80300A28E65 /* FacebookPostService.swift in Sources */,
+				B1DC478A20F649B200DF2535 /* AuthCoordinator.swift in Sources */,
+				B13F525020F7542200E1FBFA /* MyAccountsViewController.swift in Sources */,
+				B13F524720F739A000E1FBFA /* BaseTabBarViewController.swift in Sources */,
+				B13F524E20F753CB00E1FBFA /* MyAccountsCoordinator.swift in Sources */,
+				B1DC478C20F649CA00DF2535 /* BaseTabBarCoordinator.swift in Sources */,
+				B1C618DC212484D20064D2AC /* MyAccountsViewModel.swift in Sources */,
+				B13F525C20F9285800E1FBFA /* MyEbayAccountTableViewCell.swift in Sources */,
+				B15A57D520ECDC9D00551DF5 /* CustomAlertContentView.swift in Sources */,
+				B1DC478620F63CED00DF2535 /* AppCoordinator.swift in Sources */,
+				B1683F0F20EF871400F6945D /* CustomAlertViewController.swift in Sources */,
+				B13F525620F7592900E1FBFA /* OrdersCoordinator.swift in Sources */,
 				B15A579920EB95F600551DF5 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15A57A520EB95F800551DF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B15A57AE20EB95F800551DF5 /* E_dinarsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15A57B020EB95F800551DF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B15A57B920EB95F800551DF5 /* E_dinarsUITests.swift in Sources */,
+				B1461DFC20FCBB5200A28E65 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B15A57AB20EB95F800551DF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B15A579420EB95F600551DF5 /* E-dinars */;
-			targetProxy = B15A57AA20EB95F800551DF5 /* PBXContainerItemProxy */;
-		};
-		B15A57B620EB95F800551DF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B15A579420EB95F600551DF5 /* E-dinars */;
-			targetProxy = B15A57B520EB95F800551DF5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B15A579C20EB95F600551DF5 /* Main.storyboard */ = {
@@ -428,11 +521,14 @@
 		};
 		B15A57BE20EB95F800551DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF14DC328260E159179252C7 /* Pods-E-dinars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "E-dinars/E-dinars.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42HSZXZUT7;
 				INFOPLIST_FILE = "E-dinars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +542,14 @@
 		};
 		B15A57BF20EB95F800551DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C6A83B1A366FD6A623378B /* Pods-E-dinars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "E-dinars/E-dinars.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42HSZXZUT7;
 				INFOPLIST_FILE = "E-dinars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,88 +558,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B15A57C120EB95F800551DF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42HSZXZUT7;
-				INFOPLIST_FILE = "E-dinarsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-dinars.app/E-dinars";
-			};
-			name = Debug;
-		};
-		B15A57C220EB95F800551DF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42HSZXZUT7;
-				INFOPLIST_FILE = "E-dinarsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-dinars.app/E-dinars";
-			};
-			name = Release;
-		};
-		B15A57C420EB95F800551DF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42HSZXZUT7;
-				INFOPLIST_FILE = "E-dinarsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "E-dinars";
-			};
-			name = Debug;
-		};
-		B15A57C520EB95F800551DF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 42HSZXZUT7;
-				INFOPLIST_FILE = "E-dinarsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hilton.E-dinarsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "E-dinars";
 			};
 			name = Release;
 		};
@@ -561,24 +578,6 @@
 			buildConfigurations = (
 				B15A57BE20EB95F800551DF5 /* Debug */,
 				B15A57BF20EB95F800551DF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B15A57C020EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B15A57C120EB95F800551DF5 /* Debug */,
-				B15A57C220EB95F800551DF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B15A57C320EB95F800551DF5 /* Build configuration list for PBXNativeTarget "E-dinarsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B15A57C420EB95F800551DF5 /* Debug */,
-				B15A57C520EB95F800551DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
